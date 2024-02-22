@@ -1,0 +1,32 @@
+﻿
+@model DotNetTaskApp.Models.UserProfileViewModel
+
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Edit User Files</h1>
+
+<h2>User Files</h2>
+
+@if(Model.AllFiles.Any()) {
+    @foreach (var fileName in Model.AllFiles)
+    {
+        <div>
+            @fileName
+            <a asp-action="DownloadFile" asp-route-fileName="@fileName" asp-route-directoryName="UserFiles">Download</a>
+            <form asp-action="DeleteFile" method="post" class="d-inline">
+                <input type="hidden" name="fileName" value="@fileName" />
+                <input type="hidden" name="directoryName" value="UserFiles" />
+                <button type="submit" class="btn btn-danger">Delete</button>
+            </form>
+        </div>
+    }
+}
+else
+{
+    <p>No files found for the user.</p>
+}
+

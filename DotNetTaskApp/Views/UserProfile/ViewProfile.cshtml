@@ -1,0 +1,59 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@model UserDetailsViewModel
+
+@{
+    ViewData["Title"] = "User Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>User Profile Details</h1>
+
+
+<div class="mb-3 mt-3">
+    <form method="get" asp-controller="UserProfile" asp-action="ViewProfile"
+          enctype="multipart/form-data">
+        <div class="form-control">
+            <label class="header">First Name:</label>
+            @Model.FirstName
+        </div>
+
+        <div class="form-control">
+            <label class="header">Last Name :</label>
+            @Model.LastName
+        </div>
+
+        <div class="form-control">
+            <label class="header">Address :</label>
+            @Model.Address
+        </div>
+
+        <div class="form-control">
+            <label class="header">Phone Number :</label>
+            @Model.PhoneNumber
+        </div>
+
+        <div class="form-control">
+            <label class="header"> Email :</label>
+            @Model.Email
+        </div>
+
+        <div class="form-control">
+            <label class="header"> User uploaded documents :</label>
+        @if (Model.AllFiles.Any())
+        {
+            @foreach (var fileName in Model.AllFiles)
+            {
+                <div>
+                    @fileName
+                </div>
+            }
+        }
+        else
+        {
+            <p>No files found for the user.</p>
+        }</div
+       
+    </form>
