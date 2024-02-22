@@ -10,7 +10,8 @@ folder.
 User Registration, Login and Reset Password features are implemented using Microsoft Identity package and 
 EF Core.
 
-
+Currently, the email is not sent to verify email registration and forgot password. Just click on the hyperlink after 
+registration page to confirm verification
 
 Dependencies 
 1. .NET Core 6 SDK
@@ -41,6 +42,8 @@ Dependencies
 ![register_page](https://github.com/shubhamkr1/DotNetTask/assets/22971721/eb9187fa-4e3d-4660-8c62-ee1ac0c2b1ef)
 
 6. Click on Login link at top right to Login. Enter Email ID and password. Click Login button
+![login_page](https://github.com/shubhamkr1/DotNetTask/assets/22971721/9ac610db-a22f-4fe4-b57a-30b0f2431406)
+
 7. After logging in, you should see your email ID at top right, along with other options.
 ![logged_in_user](https://github.com/shubhamkr1/DotNetTask/assets/22971721/8cb8a86e-645a-4e44-8996-2653d6049649)
 
