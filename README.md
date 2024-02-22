@@ -40,13 +40,23 @@ Dependencies
    
 ![register_page](https://github.com/shubhamkr1/DotNetTask/assets/22971721/eb9187fa-4e3d-4660-8c62-ee1ac0c2b1ef)
 
-6. Click on Login link at top right to Login. Enter Email ID and password. Click Login butt
+6. Click on Login link at top right to Login. Enter Email ID and password. Click Login button
 7. After logging in, you should see your email ID at top right, along with other options.
 ![logged_in_user](https://github.com/shubhamkr1/DotNetTask/assets/22971721/8cb8a86e-645a-4e44-8996-2653d6049649)
 
-8. 
-    
+8. Click on View Profile option at top right to View logged in user profile. This will also show the list of names of files already
+   uploaded in local folder.
+   
+   ![view_profile](https://github.com/shubhamkr1/DotNetTask/assets/22971721/3f1a3459-e467-4e60-b928-fa1990a6671d)
+   
+9. Click on Add Profile to add other user details like Name, Address, Phone, Email and Profile pics, Resume.
+ 
+    ![add_profile](https://github.com/shubhamkr1/DotNetTask/assets/22971721/2dabdd1e-e98b-44d4-a4f1-612db3f8ff51)
+   
+10. Click on Access files option to visit page where you can download the uploaded files or delete those files.
+    ![download_delete](https://github.com/shubhamkr1/DotNetTask/assets/22971721/f74c29e3-d73c-4deb-98c9-39198306e245)
 
+11. Click on Logout option to logout.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
