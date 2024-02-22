@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "DotNetTaskApp\\Controllers\\UserProfileController.cs",
               "ToolTip": "C:\\Users\\shubh\\source\\repos\\DotNetTaskApp\\DotNetTaskApp\\Controllers\\UserProfileController.cs",
               "RelativeToolTip": "DotNetTaskApp\\Controllers\\UserProfileController.cs",
-              "ViewState": "AQIAAEEAAAAAAAAAAAAawEsAAAAvAAAA",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAawFUAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-22T12:57:33.302Z",
               "EditorCaption": ""
@@ -55,8 +55,7 @@
               "RelativeToolTip": "DotNetTaskApp\\Views\\Shared\\_LoginPartial.cshtml",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAAkAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-22T12:55:44.916Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-22T12:55:44.916Z"
             },
             {
               "$type": "Document",
@@ -68,8 +67,7 @@
               "RelativeToolTip": "DotNetTaskApp\\Views\\UserProfile\\EditProfile.cshtml",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAAB4AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-22T12:08:44.058Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-22T12:08:44.058Z"
             },
             {
               "$type": "Document",
@@ -81,8 +79,7 @@
               "RelativeToolTip": "DotNetTaskApp\\Views\\UserProfile\\ViewProfile.cshtml",
               "ViewState": "AQIAAA8AAAAAAAAAAAAUwDIAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-22T12:02:20.9Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-22T12:02:20.9Z"
             },
             {
               "$type": "Document",
@@ -94,8 +91,7 @@
               "RelativeToolTip": "DotNetTaskApp\\Program.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABcAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-20T15:28:34.252Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-20T15:28:34.252Z"
             }
           ]
         }

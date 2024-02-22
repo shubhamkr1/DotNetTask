@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DotNetTaskApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8e31759b5570c9f30afddff4f078032dbef624b3")]
 [assembly: System.Reflection.AssemblyProductAttribute("DotNetTaskApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DotNetTaskApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
